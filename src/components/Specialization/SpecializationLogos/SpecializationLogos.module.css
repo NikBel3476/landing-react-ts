@@ -1,0 +1,6 @@
+.logos__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 76px auto auto;
+}

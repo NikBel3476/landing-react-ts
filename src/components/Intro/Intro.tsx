@@ -9,8 +9,8 @@ import styles from './Intro.module.css';
 const Intro = (): React.ReactElement =>
     <div className={styles.container}>
         <PageLayout>
-            <Header></Header>
-            <IntroContent></IntroContent>
+            <Header />
+            <IntroContent />
         </PageLayout>
     </div>
 

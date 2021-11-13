@@ -1,0 +1,30 @@
+.container {
+    width: 45%;
+    height: 332px;
+    margin: 20px;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+}
+
+.inner__container {
+    margin: 43px 30px 40px;
+}
+
+.title {
+    text-align: left;
+    font-family: 'Gilroy-SemiBold', Arial, sans-serif;
+    font-size: 22px;
+    line-height: 147.9%;
+}
+
+.logo {
+    vertical-align: middle;
+    margin: auto 13px auto auto;
+}
+
+.main_text {
+    text-align: left;
+    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 147.9%;
+}

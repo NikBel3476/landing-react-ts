@@ -4,13 +4,15 @@ import '../../styles/fonts.css';
 import '../../styles/common.css';
 
 import Intro from '../Intro';
+import Specialization from "../Specialization";
 
 function App() {
-  return (
-    <div>
-      <Intro />
-    </div>
-  );
+    return (
+        <div>
+            <Intro/>
+            <Specialization />
+        </div>
+    );
 }
 
 export default App;
