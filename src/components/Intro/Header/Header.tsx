@@ -15,7 +15,7 @@ const Header = (): React.ReactElement => {
                 <li className={cn(styles.links__list__link)}>Testimonials</li>
                 <li className={cn(styles.links__list__link)}>Contact</li>
                 <li className={cn(styles.links__list__link)}>Sign in</li>
-                <li className={cn(styles.links__list__link)}><Button text={"Sign up"} width={152} textColor={"white"} bgColor={"green"}/></li>
+                <li className={cn(styles.links__list__link)}><Button className={cn(styles.button)} text={"Sign up"} textColor={"white"} bgColor={"green"}/></li>
             </ul>
         </header>
     );

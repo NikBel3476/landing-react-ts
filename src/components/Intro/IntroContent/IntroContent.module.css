@@ -39,13 +39,12 @@
     width: 80%;
 }
 
-.intro__links__text {
+.intro__link__text {
     display: inline-block;
     font-family: 'Gilroy-Medium', Arial, sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-decoration-line: underline;
-    color: #514040;
 }
 
 .video_arrow_image {

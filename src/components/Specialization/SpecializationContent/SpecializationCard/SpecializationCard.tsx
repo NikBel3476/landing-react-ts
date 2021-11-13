@@ -4,7 +4,7 @@ import cn from 'clsx';
 import Logo from "../../../Logo";
 import Link from "../../../Link";
 
-import styles from './Card.module.css';
+import styles from './SpecializationCard.module.css';
 import colors from '../../../../styles/textColors.module.css';
 
 type CardProps = {
@@ -13,7 +13,7 @@ type CardProps = {
     mainText: string
 }
 
-const Card = (props: CardProps): React.ReactElement => {
+const SpecializationCard = (props: CardProps): React.ReactElement => {
     const { logo, titleText, mainText } = props;
 
     return (
@@ -32,4 +32,4 @@ const Card = (props: CardProps): React.ReactElement => {
     );
 }
 
-export default Card;
+export default SpecializationCard;

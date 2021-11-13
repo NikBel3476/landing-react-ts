@@ -2,9 +2,10 @@ import React from 'react';
 import cn from "clsx";
 
 import Button from "../../Button";
+import Link from "../../Link";
 
-import VideoArrowSVG from "../../../assets/Intro/VideoArrow.svg";
 import styles from './IntroContent.module.css';
+import VideoArrowSVG from "../../../assets/Intro/VideoArrow.svg";
 
 const IntroContent = (): React.ReactElement => {
     return (
@@ -18,11 +19,10 @@ const IntroContent = (): React.ReactElement => {
                 </p>
             </div>
             <div className={cn(styles.intro__links__wrapper)}>
-                <Button text={"Contact us"} width={225} textColor={"white"} bgColor={"green"}/>
-                <p className={cn(styles.intro__links__text)}>
-                    Watch video
+                <Button text={"Contact us"} textColor={"white"} bgColor={"green"}/>
+                <Link className={cn(styles.intro__link__text)} text={"Watch video"} color={"brown"}>
                     <img className={cn(styles.video_arrow_image)} src={VideoArrowSVG} alt={"video arrow"}/>
-                </p>
+                </Link>
             </div>
         </div>
     );

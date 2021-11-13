@@ -5,12 +5,14 @@ import '../../styles/common.css';
 
 import Intro from '../Intro';
 import Specialization from "../Specialization";
+import Portfolio from "../Portfolio";
 
 function App() {
     return (
         <div>
             <Intro/>
             <Specialization />
+            <Portfolio />
         </div>
     );
 }

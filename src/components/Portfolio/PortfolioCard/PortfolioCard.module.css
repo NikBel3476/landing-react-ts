@@ -1,0 +1,29 @@
+.container {
+    width: 45%;
+}
+
+.image {
+    display: inline-block;
+    width: 100%;
+}
+
+.text__wrapper {
+    margin: 24px auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text {
+    display: inline-block;
+    margin: 0px;
+    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.link {
+    font-size: 18px;
+    line-height: 21px;
+}

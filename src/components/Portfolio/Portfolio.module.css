@@ -1,15 +1,17 @@
 .title {
-    margin: 215px auto auto;
+    margin: 140px auto auto;
 }
 
 .cards__wrapper {
-    width: 70%;
+    width: 90%;
     margin: 80px auto auto;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-    align-content: space-between;
+}
+
+.with_margin_top {
+    margin-top: 70px;
 }
 
 .button__wrapper {
