@@ -13,11 +13,12 @@ type PriceCardProps = {
     title: string,
     price: string,
     featuresKit: keyof typeof featuresList,
+    buttonText: string,
     className?: string
 }
 
 const PriceCard = (props: PriceCardProps): React.ReactElement => {
-    const { title, price, featuresKit, className } = props;
+    const { title, price, featuresKit, buttonText, className } = props;
 
     return (
         <div className={cn(className, styles.container)}>
@@ -32,7 +33,7 @@ const PriceCard = (props: PriceCardProps): React.ReactElement => {
                 )}
             </ul>
             <div className={cn(styles.button__wrapprer)}>
-                <Button text={"Request Demo"} style={"white"} size={"big"}/>
+                <Button text={buttonText} color={"white"} size={"big"}/>
             </div>
         </div>
     );

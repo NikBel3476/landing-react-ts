@@ -5,7 +5,8 @@
 }
 
 .title {
-    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 500;
     font-size: 45px;
     line-height: 53px;
 }

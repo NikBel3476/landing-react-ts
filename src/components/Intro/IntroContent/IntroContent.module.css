@@ -22,7 +22,8 @@
 
 .intro__main__text {
     width: 80%;
-    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-family: 'Giroy', Arial, sans-serif;
+    font-width: 500;
     font-size: 18px;
     line-height: 147.9%;
     text-align: center;
@@ -41,7 +42,8 @@
 
 .intro__link__text {
     display: inline-block;
-    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
 }

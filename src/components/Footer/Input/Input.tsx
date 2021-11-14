@@ -15,7 +15,7 @@ const Input = (props: InputProps): React.ReactElement => {
 
     return (
         <div className={cn(styles.container)}>
-            <input className={cn(styles.main_input)} placeholder={placeholder}/>
+            <input className={cn(styles.input)} placeholder={placeholder}/>
             <Logo image={enterArrow} />
         </div>
     );

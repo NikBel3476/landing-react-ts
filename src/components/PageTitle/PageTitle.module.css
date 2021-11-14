@@ -1,6 +1,7 @@
 .title {
     text-align: center;
     font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 500;
     font-size: 18px;
     line-height: 21px;
     color: #514040;
@@ -8,7 +9,8 @@
 
 .subtitle {
     text-align: center;
-    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 500;
     font-size: 45px;
     line-height: 53px;
     color: #313131;

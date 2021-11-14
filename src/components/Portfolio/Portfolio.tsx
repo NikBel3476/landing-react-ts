@@ -23,7 +23,7 @@ const Portfolio = (): React.ReactElement => {
                 <PortfolioCard className={cn(styles.with_margin_top)} img={itImg} text={"IT Solution Provider"}/>
             </div>
             <div className={cn(styles.button__wrapper)}>
-                <Button text={"All Projects"} style={"green"} size={"big"} />
+                <Button text={"All Projects"} color={"green"} size={"big"} />
             </div>
         </PageLayout>
     );

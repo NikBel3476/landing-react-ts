@@ -25,7 +25,7 @@ const SpecializationContent = (): React.ReactElement => {
                 <SpecializationCard logo={PhpLogo} titleText={"Php Development"} mainText={texts.mainText}/>
             </div>
             <div className={cn(styles.button__wrapper)}>
-                <Button text={"Learn More"} style={"green"} size={"big"}/>
+                <Button text={"Learn More"} color={"green"} size={"big"}/>
             </div>
         </div>
     );

@@ -20,7 +20,7 @@ const PortfolioCard = (props: PortfolioCardProps): React.ReactElement => {
             <img src={img} className={cn(styles.image)} alt={imgAlt}></img>
             <div className={cn(styles.text__wrapper)}>
                 <p className={cn(styles.text)}>{text}</p>
-                <Link className={cn(styles.link)} text={"View Details"} color={"green"} />
+                <Link className={cn(styles.link)} text={"View Details"} color={"green"}/>
             </div>
         </div>
     );

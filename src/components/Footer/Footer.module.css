@@ -7,7 +7,8 @@
 .social_media__column__text {
     width: 70%;
     margin: 35px auto auto 0;
-    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 500;
     font-size: 16px;
     line-height: 100%;
 }
@@ -20,6 +21,11 @@
 
 .link {
     margin: 28px auto auto;
+    font-family: 'Gilroy', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #313131;
 }
 
 .logo_links__wrapper {

@@ -32,4 +32,6 @@
 .link {
     display: inline-block;
     margin: 30px auto auto;
+    font-size: 16px;
+    line-height: 147.9%;
 }

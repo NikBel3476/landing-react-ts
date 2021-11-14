@@ -11,7 +11,7 @@ const ContactUs = (): React.ReactElement => {
         <PageLayout>
             <div className={cn(styles.container)}>
                 <p className={cn(styles.title)}>Need a little more home to grow?</p>
-                <Button className={cn(styles.button)} text={"Contact Us"} style={"green"} size={"big"}/>
+                <Button className={cn(styles.button)} text={"Contact Us"} color={"green"} size={"big"}/>
             </div>
         </PageLayout>
     );

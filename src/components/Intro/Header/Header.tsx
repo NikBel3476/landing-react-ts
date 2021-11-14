@@ -18,7 +18,7 @@ const Header = (): React.ReactElement => {
                     <Link className={cn(styles.links__list__link, textColors.dark)} text={"Contact"} url={"#top"} />
                     <Link className={cn(styles.links__list__link, textColors.dark)} text={"Sign in"} url={"#top"} />
                     <Link className={cn(styles.links__list__link, textColors.dark)} url={"#top"}>
-                        <Button className={cn(styles.button)} text={"Sign up"} style={"green"} size={"small"}/>
+                        <Button className={cn(styles.button)} text={"Sign up"} color={"green"} size={"small"}/>
                     </Link>
             </nav>
         </header>

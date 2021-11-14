@@ -13,9 +13,9 @@ const PricingPolicy = (): React.ReactElement => {
         <PageLayout>
             <PageTitle className={cn(styles.title)} title={"Pricing"} subtitle={"Pricing Policy"} />
             <div className={cn(styles.cards__wrapper)}>
-                <PriceCard className={cn(styles.card)} title={"For Starter"} price={"$1499"} featuresKit={"full"} />
-                <PriceCard className={cn(styles.card)} title={"For Teams"} price={"$2999"} featuresKit={"full"} />
-                <PriceCard className={cn(styles.card)} title={"For Company"} price={"Custom"} featuresKit={"default"} />
+                <PriceCard className={cn(styles.card)} title={"For Starter"} price={"$1499"} featuresKit={"full"} buttonText={"Request Demo"} />
+                <PriceCard className={cn(styles.card)} title={"For Teams"} price={"$2999"} featuresKit={"full"} buttonText={"Request Demo"} />
+                <PriceCard className={cn(styles.card)} title={"For Company"} price={"Custom"} featuresKit={"default"} buttonText={"Contact Us"} />
             </div>
         </PageLayout>
     );
