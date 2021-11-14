@@ -26,7 +26,7 @@ const SpecializationCard = (props: CardProps): React.ReactElement => {
                 <p className={cn(styles.main_text, colors.brown)}>
                     {mainText}
                 </p>
-                <Link text={"Read more"} color={"dark"}/>
+                <Link className={cn(styles.link)} text={"Read more"} color={"dark"} underlined={true} url={"#top"}/>
             </div>
         </div>
     );

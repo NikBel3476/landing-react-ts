@@ -20,7 +20,7 @@ const IntroContent = (): React.ReactElement => {
                 </p>
             </div>
             <div className={cn(styles.intro__links__wrapper)}>
-                <Button text={"Contact us"} textColor={"white"} bgColor={"green"}/>
+                <Button text={"Contact us"} style={"green"} size={"big"}/>
                 <Link className={cn(styles.intro__link__text)} text={"Watch video"} color={"brown"} underlined={true}>
                     <img className={cn(styles.video_arrow_image)} src={VideoArrowSVG} alt={"video arrow"}/>
                 </Link>

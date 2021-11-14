@@ -17,10 +17,10 @@
 }
 
 .links__list__link {
-    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-family: 'Gilroy', Arial, sans-serif;
     font-size: 18px;
     line-height: 21px;
-    color: #313131;
+    font-weight: 500;
 }
 
 .button {

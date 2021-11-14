@@ -32,7 +32,7 @@ const PriceCard = (props: PriceCardProps): React.ReactElement => {
                 )}
             </ul>
             <div className={cn(styles.button__wrapprer)}>
-                <Button text={"Request Demo"} textColor={"brown"} bgColor={"transparent"} withBorder={true}/>
+                <Button text={"Request Demo"} style={"white"} size={"big"}/>
             </div>
         </div>
     );

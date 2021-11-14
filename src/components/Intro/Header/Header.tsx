@@ -1,22 +1,26 @@
 import React from 'react';
-import cn from "clsx";
+import cn from 'clsx';
 
-import Button from "../../Button";
+import Button from '../../Button';
+import Link from '../../Link';
 
 import styles from './Header.module.css';
+import { textColors } from "../../../colors/textColors";
 
 const Header = (): React.ReactElement => {
     return (
         <header>
-            <ul className={cn(styles.links__list)}>
-                <li className={cn(styles.company__name)}>Web.Dev</li>
-                <li className={cn(styles.links__list__link)}>Home</li>
-                <li className={cn(styles.links__list__link)}>About</li>
-                <li className={cn(styles.links__list__link)}>Testimonials</li>
-                <li className={cn(styles.links__list__link)}>Contact</li>
-                <li className={cn(styles.links__list__link)}>Sign in</li>
-                <li className={cn(styles.links__list__link)}><Button className={cn(styles.button)} text={"Sign up"} textColor={"white"} bgColor={"green"}/></li>
-            </ul>
+            <nav className={cn(styles.links__list)}>
+                    <Link className={cn(styles.company__name)} text={"Web"}>.Dev</Link>
+                    <Link className={cn(styles.links__list__link, textColors.dark)} text={"Home"} url={"#top"} />
+                    <Link className={cn(styles.links__list__link, textColors.dark)} text={"About"} url={"#top"} />
+                    <Link className={cn(styles.links__list__link, textColors.dark)} text={"Testimonials"} url={"#top"} />
+                    <Link className={cn(styles.links__list__link, textColors.dark)} text={"Contact"} url={"#top"} />
+                    <Link className={cn(styles.links__list__link, textColors.dark)} text={"Sign in"} url={"#top"} />
+                    <Link className={cn(styles.links__list__link, textColors.dark)} url={"#top"}>
+                        <Button className={cn(styles.button)} text={"Sign up"} style={"green"} size={"small"}/>
+                    </Link>
+            </nav>
         </header>
     );
 }
