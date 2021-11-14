@@ -9,13 +9,17 @@ type ButtonProps = {
     text: string,
     textColor: keyof typeof textColors,
     bgColor: keyof typeof bgColors,
+    withBorder?: boolean,
     className?: string
 }
 
-const Button = (props: ButtonProps): React.ReactElement => {
-    const { text, textColor, bgColor, className } = props;
+const setBorder = (withBorder?: boolean): string | null =>
+    withBorder ? styles.bordered : null;
 
-    return <button className={cn(styles.button, className, textColors[textColor], bgColors[bgColor])}>{text}</button>;
+const Button = (props: ButtonProps): React.ReactElement => {
+    const { text, textColor, bgColor, withBorder, className } = props;
+
+    return <button className={cn(styles.button, className, textColors[textColor], bgColors[bgColor], setBorder(withBorder))}>{text}</button>;
 }
 
 export default Button;

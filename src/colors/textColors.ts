@@ -4,5 +4,6 @@ export const textColors = {
     dark: colorStyle.dark,
     brown: colorStyle.brown,
     green: colorStyle.green,
-    white: colorStyle.white
+    white: colorStyle.white,
+    transparent: colorStyle.transparent
 }

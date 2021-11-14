@@ -1,0 +1,31 @@
+.container {
+    margin-top: 127px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_media__column__text {
+    width: 70%;
+    margin: 35px auto auto 0;
+    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.links_list {
+    margin: 39px auto auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.link {
+    margin: 28px auto auto;
+}
+
+.logo_links__wrapper {
+    margin: 64px auto auto;
+}
+
+.logo_link {
+    margin: auto 15px auto auto;
+}

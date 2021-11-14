@@ -6,18 +6,28 @@ import styles from './Link.module.css';
 import { textColors } from "../../colors/textColors";
 
 type LinkProps = {
-    text: string,
-    color: keyof typeof textColors,
+    text?: string,
+    color?: keyof typeof textColors,
+    underlined?: boolean,
     url?: string,
     className?: string,
     children?: React.ReactNode | React.ReactElement[];
 }
 
+const getColorStyle = (color?: keyof typeof textColors): string =>
+    color ? textColors[color] : textColors.dark
+
+const getUnderlineStyle = (underlined?: boolean): string =>
+    underlined ? styles.underlined : styles.not_underlined
+
 const Link = (props: LinkProps): React.ReactElement => {
-    const { text, color, url, className, children } = props;
+    const { text, color, underlined, url, className, children } = props;
 
     return (
-        <a className={cn(styles.link, textColors[color], className)} href={url}>{text}{children}</a>
+        <a className={cn(styles.link, getColorStyle(color), getUnderlineStyle(underlined), className)} href={url}>
+            {text}
+            {children}
+        </a>
     );
 }
 

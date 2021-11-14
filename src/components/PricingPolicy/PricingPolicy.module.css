@@ -1,0 +1,13 @@
+.title {
+    margin: 140px;
+}
+
+.cards__wrapper {
+    margin: 80px auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+
+}

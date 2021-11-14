@@ -1,0 +1,22 @@
+.container {
+    width: 174px;
+    height: 40px;
+    background: #F2F2F2;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.main_input {
+    /*margin: auto auto auto 12px;*/
+    background: transparent;
+    padding: 0px;
+    border: none;
+    outline: none;
+    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+

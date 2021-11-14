@@ -1,0 +1,15 @@
+.container {
+    width: 40%;
+    margin: 140px auto auto;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.button {
+    margin-top: 53px;
+}

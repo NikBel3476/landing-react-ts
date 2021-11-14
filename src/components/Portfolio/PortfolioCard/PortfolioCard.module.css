@@ -17,7 +17,7 @@
 .text {
     display: inline-block;
     margin: 0px;
-    font-family: 'Gilroy-Medium', Arial, sans-serif;
+    font-family: Gilroy-Medium, Arial, sans-serif;
     font-size: 28px;
     line-height: 33px;
     color: #000000;

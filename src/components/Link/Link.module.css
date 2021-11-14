@@ -2,5 +2,12 @@
     font-family: 'Gilroy-Medium', Arial, sans-serif;
     font-size: 16px;
     line-height: 147.9%;
+}
+
+.underlined {
     text-decoration-line: underline;
+}
+
+.not_underlined {
+    text-decoration-line: none;
 }

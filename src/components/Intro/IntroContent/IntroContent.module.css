@@ -44,14 +44,8 @@
     font-family: 'Gilroy-Medium', Arial, sans-serif;
     font-size: 18px;
     line-height: 21px;
-    text-decoration-line: underline;
 }
 
 .video_arrow_image {
     margin: auto auto auto 13px;
-}
-
-
-.green_text {
-    color: #49ad09;
 }
