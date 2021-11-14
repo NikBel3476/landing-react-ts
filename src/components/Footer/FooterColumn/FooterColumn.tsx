@@ -5,7 +5,6 @@ import styles from './FooterColumn.module.css';
 
 import { links } from "../Links";
 
-
 type FooterColumntProps = {
     linksList?: keyof typeof links;
     title?: string,
@@ -19,9 +18,7 @@ const FooterColumn = (props: FooterColumntProps): React.ReactElement => {
     return (
         <div className={cn(className)}>
             <p className={cn(styles.title)}>{title}</p>
-            <div className={cn(styles.content__wrapper)}>
-                {children}
-            </div>
+            {children}
         </div>
     );
 }

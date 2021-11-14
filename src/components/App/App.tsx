@@ -9,6 +9,7 @@ import Portfolio from "../Portfolio";
 import PricingPolicy from "../PricingPolicy";
 import ContactUs from "../ContactUs";
 import Footer from "../Footer";
+import Copyright from "../Copyright";
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
             <PricingPolicy />
             <ContactUs />
             <Footer />
+            <Copyright />
         </div>
     );
 }
