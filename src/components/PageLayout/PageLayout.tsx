@@ -11,7 +11,7 @@ type PageLayoutProps = {
 const PageLayout = (props: PageLayoutProps): React.ReactElement => {
     const { children, className } = props;
 
-    return <div className={cn(styles.container, className)}>{children}</div>;
+    return <section className={cn(styles.container, className)}>{children}</section>;
 }
 
 export default PageLayout;

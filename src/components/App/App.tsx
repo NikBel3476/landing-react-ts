@@ -13,7 +13,7 @@ import Copyright from "../Copyright";
 
 function App() {
     return (
-        <div>
+        <React.StrictMode>
             <Intro/>
             <Specialization />
             <Portfolio />
@@ -21,11 +21,8 @@ function App() {
             <ContactUs />
             <Footer />
             <Copyright />
-        </div>
+        </React.StrictMode>
     );
 }
 
 export default App;
-
-// npm install clsx – для классов
-// npm i -D typescript-plugin-css-modules – для работы css modules + ts

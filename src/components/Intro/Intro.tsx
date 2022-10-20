@@ -7,11 +7,11 @@ import IntroContent from "./IntroContent";
 import styles from './Intro.module.css';
 
 const Intro = (): React.ReactElement =>
-    <div className={styles.container}>
+    <section className={styles.container}>
         <PageLayout>
             <Header />
             <IntroContent />
         </PageLayout>
-    </div>
+    </section>
 
 export default Intro;
